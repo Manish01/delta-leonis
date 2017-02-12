@@ -1,0 +1,18 @@
+1.  create a directory on local computer "Delta-Leonis"
+2.  Create a account on github 
+3.  Create a repoistory on github:  "delta-leonis"
+4.  Add configurations on local system (github login username and email)
+		git config --global user.name "Manish01"
+		git config --global user.email "manicche.maxgood@gmail.com"
+5.  execute# git init
+6.  Create a file : touch nakshatras.txt
+7.  add changes to git#  git add nakshatras.txt
+8.  commit changes to git:# git commit -m "changes has been commited" 
+9. to send these changes to github
+	a.	git pull  https://github.com/Manish01/delta-leonis.git
+	b.	make changes on your file
+	c.	add changes to git:#    git add nakshatras.txt
+	d.	commit changes to git:# git commit -m "commited"
+	e.	git remote add origin https://github.com/Manish01/delta-leonis.git
+	f.	git push -u origin master
+
