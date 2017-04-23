@@ -1,7 +1,6 @@
 print "Hello Python"
 
 #g = input("please enter a num: ")
-g = input("please enter a num: ")
 
 #print g
 
