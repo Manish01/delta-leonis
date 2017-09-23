@@ -16,3 +16,20 @@
 	e.	git remote add origin https://github.com/Manish01/delta-leonis.git
 	f.	git push -u origin master
 
+#CREATE REPO on GitHUB FROM GITHUB COMMANDLINE via api and push localrepo to it
+
+#CREATE LOCALREPO "soo"
+   mkdir soo
+   cd soo/
+   git init 
+   echo "SAmple" >> README.md
+   git status 
+   git add . 
+   git status 
+   git commit -m "Added som"
+   git status 
+
+#CREATE GITHUB REPO for "soo"
+   curl -u "Manish01" https://api.github.com/user/repos -d '{"name":"soo"}'
+   git remote add origin https://github.com/Manish01/soo.git
+   git push -u origin master
